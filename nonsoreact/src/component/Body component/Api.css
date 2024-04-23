@@ -1,0 +1,35 @@
+* {
+    margin: 0px;
+    padding: 0px;
+  }
+img{
+    margin: auto;
+    width: 10em;
+    height: 8em;
+}
+#all{
+    display: flex;
+    max-width: fit-content;
+    margin: auto;
+    /* max-width: 51em; */
+    /* max-width: 70em; */
+    flex-wrap: wrap;
+}
+@media only screen and (max-width: 530px) {
+    img{
+        width: 14em;
+        height: 10em;
+    }
+}
+@media only screen and (max-width: 360px) {
+    img{
+        width: 5.5em;
+        height: 11em;
+    }
+}
+@media only screen and (max-width: 452px) {
+    img{
+        width: 12.4em;
+        height: 11em;
+    }
+}
